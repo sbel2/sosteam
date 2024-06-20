@@ -239,6 +239,7 @@ const Post = () => {
           justify-content: space-between;
           overflow-y: hidden;
           max-height: 800px; /* Adjust this value based on your needs */
+          color: black;
         }
 
         .profile-header {
