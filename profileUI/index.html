@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-picture-container">
+                <img src="pfp.png" alt="Profile Picture" class="profile-picture">
+            </div>
+            <h1 class="username">John Doe</h1>
+            <p class="user-tag">@johndoe</p>
+        </div>
+        <div class="tabs">
+            <button class="tab-btn active" id="saved-tab">Saved Posts</button>
+            <button class="tab-btn" id="liked-tab">Liked Posts</button>
+        </div>
+        <div class="posts-container" id="saved-posts">
+            <!-- Placeholder for saved posts -->
+            <p>No saved posts yet.</p>
+        </div>
+        <div class="posts-container hidden" id="liked-posts">
+            <!-- Placeholder for liked posts -->
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="e1_1.jpeg" alt="Liked Post 1">
+                </div>
+                <div class="grid-item">
+                    <img src="e4_1.jpg" alt="Liked Post 2">
+                </div>
+                <div class="grid-item">
+                    <img src="e6_2_1.jpg" alt="Liked Post 3">
+                </div>
+                <!-- Add more liked posts as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
